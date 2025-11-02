@@ -1,5 +1,5 @@
 {
-  "name": "outl1ne/nova-color-field",
+  "name": "djstarcom/nova-color-field",
   "description": "A Laravel Nova Color Picker field.",
   "keywords": [
     "laravel",
@@ -7,26 +7,36 @@
     "color picker",
     "field"
   ],
+  "authors": [
+    {
+      "name": "outl1ne",
+      "homepage": "https://github.com/outl1ne"
+    },
+    {
+      "name": "Stanislav Tsepeniuk",
+      "homepage": "https://github.com/DJStarCOM"
+    }
+  ],
   "license": "MIT",
   "require": {
     "php": ">=8.0",
-    "laravel/nova": "^4.0",
+    "laravel/nova": "^5.0",
     "ext-json": "*"
   },
   "require-dev": {
-    "friendsofphp/php-cs-fixer": "^2",
-    "orchestra/testbench": "^6",
+    "friendsofphp/php-cs-fixer": "^3",
+    "orchestra/testbench": "^9",
     "roave/security-advisories": "dev-latest"
   },
   "autoload": {
     "psr-4": {
-      "Outl1ne\\NovaColorField\\": "src/"
+      "DJStarCOM\\NovaColorField\\": "src/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Outl1ne\\NovaColorField\\ColorFieldServiceProvider"
+        "DJStarCOM\\NovaColorField\\ColorFieldServiceProvider"
       ]
     }
   },

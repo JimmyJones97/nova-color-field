@@ -1,6 +1,6 @@
 <?php
 
-namespace Outl1ne\NovaColorField;
+namespace DJStarCOM\NovaColorField;
 
 use Laravel\Nova\Nova;
 use Laravel\Nova\Events\ServingNova;
